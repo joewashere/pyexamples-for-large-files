@@ -13,7 +13,7 @@ from sys import stdout
 connection = pymysql.connect(host="localhost",
 							user = "root",
 							password = "",
-							db = "tpstest",
+							db = "test",
 							charset = "utf8",
 							cursorclass=pymysql.cursors.DictCursor)
 
